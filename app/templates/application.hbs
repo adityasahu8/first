@@ -1,5 +1,12 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<h2> My First Ember App</h2>
+<hr>
+<div>
+    <ul>
+    <li>{{#link-to "home" class="menu"}}Home{{/link-to}}</li>
+    <li>{{#link-to "names" class="menu"}}Names-editor{{/link-to}}</li>
+    <li>{{#link-to "contact-us" class="menu"}}Contact-us{{/link-to}}</li>
+    <li>{{#link-to "fibo" class="menu"}}Fibo{{/link-to}}</li>
+    <li>{{#link-to "books" class="menu"}}Books{{/link-to}}</li>
+    </ul>
+</div>
 {{outlet}}
